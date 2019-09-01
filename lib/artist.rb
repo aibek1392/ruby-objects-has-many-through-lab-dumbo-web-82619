@@ -11,9 +11,9 @@ class  Artist
     @@all
   end
   def songs 
-   @songs << songs
-   songs
-   
+    Artist.all.map do |song|
+    artist.song == self
+    end
   end
 end
   
