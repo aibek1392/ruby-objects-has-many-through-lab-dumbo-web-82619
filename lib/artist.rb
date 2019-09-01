@@ -12,7 +12,7 @@ class  Artist
   end
   def songs 
     Artist.all.map do |song|
-    artist.song == self
+    song.artist == self
     end
   end
 end
