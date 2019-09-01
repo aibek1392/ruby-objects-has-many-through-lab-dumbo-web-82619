@@ -10,3 +10,8 @@ class Songs
   end
   
 end
+
+madonna = Artist.new("Madonna")
+pop = Genre.new("pop")
+ 
+into_the_groove = Song.new("Into the Groove", madonna, pop)
