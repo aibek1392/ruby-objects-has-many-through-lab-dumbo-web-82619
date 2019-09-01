@@ -10,8 +10,8 @@ class  Artist
   end
   def songs 
     Songs.all.map do |artist|
-    artist.song
+    artist.song == self
     end
   end
 end
-  rap = Genre.new("rap")
+  
