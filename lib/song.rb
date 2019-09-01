@@ -11,7 +11,7 @@ class Songs
   
 end
 
-madonna = Artist.new("Madonna")
-pop = Genre.new("pop")
+# madonna = Artist.new("Madonna")
+# pop = Genre.new("pop")
  
-into_the_groove = Song.new("Into the Groove", madonna, pop)
+# into_the_groove = Song.new("Into the Groove", madonna, pop)
