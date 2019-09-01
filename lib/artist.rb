@@ -9,8 +9,8 @@ class  Artist
     @@all
   end
   def songs 
-    Songs.all.select do |artist|
-    artist.song == self
+    Songs.all.map do |artist|
+    artist.song
     end
   end
 end
