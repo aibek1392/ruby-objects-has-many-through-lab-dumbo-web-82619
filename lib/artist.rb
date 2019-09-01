@@ -14,4 +14,4 @@ class  Artist
     end
   end
 end
-  
+  rap = Genre.new("rap")
